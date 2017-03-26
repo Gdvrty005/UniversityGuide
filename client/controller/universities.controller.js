@@ -1,5 +1,5 @@
 angular.module('UniversityGuide.controller').
 
-controller('department', function ($scope, service) {
-    $scope.page = 'department';
+controller('universities', function ($scope, service) {
+    $scope.page = 'universities';
 });

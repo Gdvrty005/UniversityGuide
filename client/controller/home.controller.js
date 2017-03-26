@@ -1,3 +1,5 @@
-/**
- * Created by raviteja.tadipaneni on 3/25/17.
- */
+angular.module('UniversityGuide.controller').
+
+    controller('home', function ($scope) {
+        $scope.page = 'home';
+    });
